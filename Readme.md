@@ -4,18 +4,23 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Data Grid for Windows Forms - How to create and populate an unbound column
+# WinForms Data Grid - How to create and populate an unbound column
 
-This example creates an [unbound column](https://docs.devexpress.com/WindowsForms/1477/controls-and-libraries/data-grid/unbound-columns) in a [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl). The code handles the [ColumnView.CustomUnboundColumnData](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.CustomUnboundColumnData) event to populate the unbound column with data.
+This example demonstates how to:
 
-A user can enter values in the unbound column. These values are not cached by the Grid Control. The example demonstrates how to manually implement a value cache.
+* Create an [unbound column](https://docs.devexpress.com/WindowsForms/1477/controls-and-libraries/data-grid/unbound-columns).
+* Display the unboudn column in the [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) (add the column to the View's `Columns` collection).
+* Populate the unbound column with data ([ColumnView.CustomUnboundColumnData](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.CustomUnboundColumnData)).
+* Cache unbound column values to allow users to edit cell values.
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [Form1.cs](./CS/WindowsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication1/Form1.vb))
 <!-- default file list end -->
 
+## Tutorial Video
+- [WinForms Grid - Unbound Columns (YouTube)](https://www.youtube.com/watch?v=bbNhg1Xn9O4)
 
 ## Documentation
 - [ColumnView.CustomUnboundColumnData](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.CustomUnboundColumnData)
