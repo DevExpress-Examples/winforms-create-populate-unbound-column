@@ -6,7 +6,7 @@
 
 # WinForms Data Grid - How to create and populate an unbound column
 
-This example demonstates how to:
+This example demonstrates how to:
 
 * Create an [unbound column](https://docs.devexpress.com/WindowsForms/1477/controls-and-libraries/data-grid/unbound-columns).
 * Display the unbound column in the [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) (add the column to the View's `Columns` collection).
