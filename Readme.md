@@ -9,7 +9,7 @@
 This example demonstates how to:
 
 * Create an [unbound column](https://docs.devexpress.com/WindowsForms/1477/controls-and-libraries/data-grid/unbound-columns).
-* Display the unboudn column in the [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) (add the column to the View's `Columns` collection).
+* Display the unbound column in the [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) (add the column to the View's `Columns` collection).
 * Populate the unbound column with data ([ColumnView.CustomUnboundColumnData](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.CustomUnboundColumnData)).
 * Cache unbound column values to allow users to edit cell values.
 
